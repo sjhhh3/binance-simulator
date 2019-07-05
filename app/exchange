@@ -1,2 +1,1656 @@
-{"FROM":{"BTC": ["ETH", "LTC", "BNB", "NEO", "BCC", "GAS", "HSR", "MCO", "WTC", "LRC", "QTUM", "YOYO", "OMG", "ZRX", "STRAT", "SNGLS", "BQX", "KNC", "FUN", "SNM", "IOTA", "LINK", "XVG", "SALT", "MDA", "MTL", "SUB", "EOS", "SNT", "ETC", "MTH", "ENG", "DNT", "ZEC", "BNT", "AST", "DASH", "OAX", "ICN", "BTG", "EVX", "REQ", "VIB", "TRX", "POWR", "ARK", "XRP", "MOD", "ENJ", "STORJ", "VEN", "KMD", "RCN", "NULS", "RDN", "XMR", "DLT", "AMB", "BAT", "BCPT", "ARN", "GVT", "CDT", "GXS", "POE", "QSP", "BTS", "XZC", "LSK", "TNT", "FUEL", "MANA", "BCD", "DGD", "ADX", "ADA", "PPT", "CMT", "XLM", "CND", "LEND", "WABI", "TNB", "WAVES", "GTO", "ICX", "OST", "ELF", "AION", "NEBL", "BRD", "EDO", "WINGS", "NAV", "LUN", "TRIG", "APPC", "VIBE", "RLC", "INS", "PIVX", "IOST", "CHAT", "STEEM", "NANO", "VIA", "BLZ", "AE", "RPX", "NCASH", "POA", "ZIL", "ONT", "STORM", "XEM", "WAN", "WPR", "QLC", "SYS", "GRS", "CLOAK", "GNT", "LOOM", "BCN", "REP", "TUSD", "ZEN", "SKY", "CVC", "THETA", "IOTX", "QKC", "AGI", "NXS", "DATA", "SC", "NPXS", "KEY", "NAS", "MFT", "DENT", "ARDR", "HOT", "VET", "DOCK", "POLY", "PHX", "HC", "GO", "PAX", "RVN", "DCR", "USDC", "MITH", "BCHABC", "BCHSV", "REN", "BTT", "ONG", "FET", "CELR", "MATIC", "ATOM", "PHB", "TFUEL", "ONE", "FTM", "BTCB", "ALGO"], "ETH": ["QTUM", "EOS", "SNT", "BNT", "BNB", "OAX", "DNT", "MCO", "ICN", "WTC", "LRC", "OMG", "ZRX", "STRAT", "SNGLS", "BQX", "KNC", "FUN", "SNM", "NEO", "IOTA", "LINK", "XVG", "SALT", "MDA", "MTL", "SUB", "ETC", "MTH", "ENG", "ZEC", "AST", "DASH", "BTG", "EVX", "REQ", "VIB", "HSR", "TRX", "POWR", "ARK", "YOYO", "XRP", "MOD", "ENJ", "STORJ", "VEN", "KMD", "RCN", "NULS", "RDN", "XMR", "DLT", "AMB", "BCC", "BAT", "BCPT", "ARN", "GVT", "CDT", "GXS", "POE", "QSP", "BTS", "XZC", "LSK", "TNT", "FUEL", "MANA", "BCD", "DGD", "ADX", "ADA", "PPT", "CMT", "XLM", "CND", "LEND", "WABI", "LTC", "TNB", "WAVES", "GTO", "ICX", "OST", "ELF", "AION", "NEBL", "BRD", "EDO", "WINGS", "NAV", "LUN", "TRIG", "APPC", "VIBE", "RLC", "INS", "PIVX", "IOST", "CHAT", "STEEM", "NANO", "VIA", "BLZ", "AE", "RPX", "NCASH", "POA", "ZIL", "ONT", "STORM", "XEM", "WAN", "WPR", "QLC", "SYS", "GRS", "CLOAK", "GNT", "LOOM", "BCN", "REP", "TUSD", "ZEN", "SKY", "CVC", "THETA", "IOTX", "QKC", "AGI", "NXS", "DATA", "SC", "NPXS", "KEY", "NAS", "MFT", "DENT", "ARDR", "HOT", "VET", "DOCK", "PHX", "HC", "PAX"], "USDT": ["BTC", "ETH", "BNB", "BCC", "NEO", "LTC", "QTUM", "ADA", "XRP", "EOS", "TUSD", "IOTA", "XLM", "ONT", "TRX", "ETC", "ICX", "VEN", "NULS", "VET", "PAX", "BCHABC", "BCHSV", "USDC", "LINK", "WAVES", "BTT", "USDS", "ONG", "HOT", "ZIL", "ZRX", "FET", "BAT", "XMR", "ZEC", "IOST", "CELR", "DASH", "NANO", "OMG", "THETA", "ENJ", "MITH", "MATIC", "ATOM", "TFUEL", "ONE", "FTM", "ALGO", "USDSB", "GTO"], "BNB": ["VEN", "YOYO", "POWR", "NULS", "RCN", "RDN", "DLT", "WTC", "AMB", "BCC", "BAT", "BCPT", "NEO", "QSP", "BTS", "XZC", "LSK", "IOTA", "ADX", "CMT", "XLM", "CND", "WABI", "LTC", "WAVES", "GTO", "ICX", "OST", "AION", "NEBL", "BRD", "MCO", "NAV", "TRIG", "APPC", "RLC", "PIVX", "STEEM", "NANO", "VIA", "BLZ", "AE", "RPX", "NCASH", "POA", "ZIL", "ONT", "STORM", "QTUM", "XEM", "WAN", "SYS", "QLC", "ADA", "GNT", "LOOM", "BCN", "REP", "TUSD", "ZEN", "SKY", "EOS", "CVC", "THETA", "XRP", "AGI", "NXS", "ENJ", "TRX", "ETC", "SC", "NAS", "MFT", "ARDR", "VET", "POLY", "PHX", "GO", "PAX", "RVN", "DCR", "USDC", "MITH", "REN", "BTT", "ONG", "HOT", "ZRX", "FET", "XMR", "ZEC", "IOST", "CELR", "DASH", "OMG", "MATIC", "ATOM", "PHB", "TFUEL", "ONE", "FTM", "ALGO"], "TUSD": ["BTC", "ETH", "BNB", "XRP", "EOS", "XLM", "ADA", "TRX", "NEO", "PAX", "USDC", "LINK", "WAVES", "BCHABC", "BCHSV", "LTC", "USDS", "BTT", "ZEC", "ATOM", "ETC", "BAT", "PHB", "TFUEL", "ONE", "FTM", "BCPT", "ALGO", "GTO"], "PAX": ["BNB", "BTC", "ETH", "XRP", "EOS", "XLM", "USDC", "LINK", "WAVES", "BCHABC", "BCHSV", "LTC", "TRX", "USDS", "BTT", "ZEC", "ADA", "NEO", "ATOM", "ETC", "BAT", "PHB", "TFUEL", "ONE", "FTM", "BCPT", "ALGO", "GTO"], "USDC": ["BNB", "BTC", "ETH", "XRP", "EOS", "XLM", "LINK", "WAVES", "BCHABC", "BCHSV", "LTC", "TRX", "USDS", "BTT", "ZEC", "ADA", "NEO", "ATOM", "ETC", "BAT", "PHB", "TFUEL", "ONE", "FTM", "BCPT", "ALGO", "GTO"], "XRP": ["TRX", "XZC"], "USDS": ["BNB", "BTC", "USDSB"]},
-  "TO":{"ETH": ["BTC", "USDT", "TUSD", "PAX", "USDC"], "LTC": ["BTC", "ETH", "USDT", "BNB", "TUSD", "PAX", "USDC"], "BNB": ["BTC", "ETH", "USDT", "PAX", "TUSD", "USDC", "USDS"], "NEO": ["BTC", "ETH", "USDT", "BNB", "TUSD", "PAX", "USDC"], "QTUM": ["ETH", "BTC", "BNB", "USDT"], "EOS": ["ETH", "BTC", "USDT", "BNB", "PAX", "TUSD", "USDC"], "SNT": ["ETH", "BTC"], "BNT": ["ETH", "BTC"], "BCC": ["BTC", "ETH", "USDT", "BNB"], "GAS": ["BTC"], "BTC": ["USDT", "TUSD", "PAX", "USDC", "USDS"], "HSR": ["BTC", "ETH"], "OAX": ["ETH", "BTC"], "DNT": ["ETH", "BTC"], "MCO": ["ETH", "BTC", "BNB"], "ICN": ["ETH", "BTC"], "WTC": ["BTC", "ETH", "BNB"], "LRC": ["BTC", "ETH"], "YOYO": ["BTC", "ETH", "BNB"], "OMG": ["BTC", "ETH", "BNB", "USDT"], "ZRX": ["BTC", "ETH", "BNB", "USDT"], "STRAT": ["BTC", "ETH"], "SNGLS": ["BTC", "ETH"], "BQX": ["BTC", "ETH"], "KNC": ["BTC", "ETH"], "FUN": ["BTC", "ETH"], "SNM": ["BTC", "ETH"], "IOTA": ["BTC", "ETH", "BNB", "USDT"], "LINK": ["BTC", "ETH", "USDT", "TUSD", "PAX", "USDC"], "XVG": ["BTC", "ETH"], "SALT": ["BTC", "ETH"], "MDA": ["BTC", "ETH"], "MTL": ["BTC", "ETH"], "SUB": ["BTC", "ETH"], "ETC": ["ETH", "BTC", "USDT", "BNB", "USDC", "PAX", "TUSD"], "MTH": ["BTC", "ETH"], "ENG": ["BTC", "ETH"], "ZEC": ["BTC", "ETH", "BNB", "USDT", "PAX", "TUSD", "USDC"], "AST": ["BTC", "ETH"], "DASH": ["BTC", "ETH", "BNB", "USDT"], "BTG": ["BTC", "ETH"], "EVX": ["BTC", "ETH"], "REQ": ["BTC", "ETH"], "VIB": ["BTC", "ETH"], "TRX": ["BTC", "ETH", "BNB", "USDT", "TUSD", "XRP", "PAX", "USDC"], "POWR": ["BTC", "ETH", "BNB"], "ARK": ["BTC", "ETH"], "XRP": ["BTC", "ETH", "USDT", "BNB", "PAX", "TUSD", "USDC"], "MOD": ["BTC", "ETH"], "ENJ": ["BTC", "ETH", "BNB", "USDT"], "STORJ": ["BTC", "ETH"], "VEN": ["BNB", "BTC", "ETH", "USDT"], "KMD": ["BTC", "ETH"], "NULS": ["BNB", "BTC", "ETH", "USDT"], "RCN": ["BTC", "ETH", "BNB"], "RDN": ["BTC", "ETH", "BNB"], "XMR": ["BTC", "ETH", "BNB", "USDT"], "DLT": ["BNB", "BTC", "ETH"], "AMB": ["BTC", "ETH", "BNB"], "BAT": ["BTC", "ETH", "BNB", "USDT", "USDC", "PAX", "TUSD"], "BCPT": ["BTC", "ETH", "BNB", "TUSD", "PAX", "USDC"], "ARN": ["BTC", "ETH"], "GVT": ["BTC", "ETH"], "CDT": ["BTC", "ETH"], "GXS": ["BTC", "ETH"], "POE": ["BTC", "ETH"], "QSP": ["BTC", "ETH", "BNB"], "BTS": ["BTC", "ETH", "BNB"], "XZC": ["BTC", "ETH", "BNB", "XRP"], "LSK": ["BTC", "ETH", "BNB"], "TNT": ["BTC", "ETH"], "FUEL": ["BTC", "ETH"], "MANA": ["BTC", "ETH"], "BCD": ["BTC", "ETH"], "DGD": ["BTC", "ETH"], "ADX": ["BTC", "ETH", "BNB"], "ADA": ["BTC", "ETH", "USDT", "BNB", "TUSD", "PAX", "USDC"], "PPT": ["BTC", "ETH"], "CMT": ["BTC", "ETH", "BNB"], "XLM": ["BTC", "ETH", "BNB", "USDT", "PAX", "TUSD", "USDC"], "CND": ["BTC", "ETH", "BNB"], "LEND": ["BTC", "ETH"], "WABI": ["BTC", "ETH", "BNB"], "TNB": ["BTC", "ETH"], "WAVES": ["BTC", "ETH", "BNB", "USDT", "TUSD", "PAX", "USDC"], "GTO": ["BTC", "ETH", "BNB", "USDT", "PAX", "TUSD", "USDC"], "ICX": ["BTC", "ETH", "BNB", "USDT"], "OST": ["BTC", "ETH", "BNB"], "ELF": ["BTC", "ETH"], "AION": ["BTC", "ETH", "BNB"], "NEBL": ["BTC", "ETH", "BNB"], "BRD": ["BTC", "ETH", "BNB"], "EDO": ["BTC", "ETH"], "WINGS": ["BTC", "ETH"], "NAV": ["BTC", "ETH", "BNB"], "LUN": ["BTC", "ETH"], "TRIG": ["BTC", "ETH", "BNB"], "APPC": ["BTC", "ETH", "BNB"], "VIBE": ["BTC", "ETH"], "RLC": ["BTC", "ETH", "BNB"], "INS": ["BTC", "ETH"], "PIVX": ["BTC", "ETH", "BNB"], "IOST": ["BTC", "ETH", "BNB", "USDT"], "CHAT": ["BTC", "ETH"], "STEEM": ["BTC", "ETH", "BNB"], "NANO": ["BTC", "ETH", "BNB", "USDT"], "VIA": ["BTC", "ETH", "BNB"], "BLZ": ["BTC", "ETH", "BNB"], "AE": ["BTC", "ETH", "BNB"], "RPX": ["BTC", "ETH", "BNB"], "NCASH": ["BTC", "ETH", "BNB"], "POA": ["BTC", "ETH", "BNB"], "ZIL": ["BTC", "ETH", "BNB", "USDT"], "ONT": ["BTC", "ETH", "BNB", "USDT"], "STORM": ["BTC", "ETH", "BNB"], "XEM": ["BTC", "ETH", "BNB"], "WAN": ["BTC", "ETH", "BNB"], "WPR": ["BTC", "ETH"], "QLC": ["BTC", "ETH", "BNB"], "SYS": ["BTC", "ETH", "BNB"], "GRS": ["BTC", "ETH"], "CLOAK": ["BTC", "ETH"], "GNT": ["BTC", "ETH", "BNB"], "LOOM": ["BTC", "ETH", "BNB"], "BCN": ["BTC", "ETH", "BNB"], "REP": ["BTC", "ETH", "BNB"], "TUSD": ["BTC", "ETH", "BNB", "USDT"], "ZEN": ["BTC", "ETH", "BNB"], "SKY": ["BTC", "ETH", "BNB"], "CVC": ["BTC", "ETH", "BNB"], "THETA": ["BTC", "ETH", "BNB", "USDT"], "IOTX": ["BTC", "ETH"], "QKC": ["BTC", "ETH"], "AGI": ["BTC", "ETH", "BNB"], "NXS": ["BTC", "ETH", "BNB"], "DATA": ["BTC", "ETH"], "SC": ["BTC", "ETH", "BNB"], "NPXS": ["BTC", "ETH"], "KEY": ["BTC", "ETH"], "NAS": ["BTC", "ETH", "BNB"], "MFT": ["BTC", "ETH", "BNB"], "DENT": ["BTC", "ETH"], "ARDR": ["BTC", "ETH", "BNB"], "HOT": ["BTC", "ETH", "BNB", "USDT"], "VET": ["BTC", "ETH", "USDT", "BNB"], "DOCK": ["BTC", "ETH"], "POLY": ["BTC", "BNB"], "PHX": ["BTC", "ETH", "BNB"], "HC": ["BTC", "ETH"], "GO": ["BTC", "BNB"], "PAX": ["BTC", "BNB", "USDT", "ETH", "TUSD"], "RVN": ["BTC", "BNB"], "DCR": ["BTC", "BNB"], "USDC": ["BNB", "BTC", "USDT", "TUSD", "PAX"], "MITH": ["BTC", "BNB", "USDT"], "BCHABC": ["BTC", "USDT", "TUSD", "PAX", "USDC"], "BCHSV": ["BTC", "USDT", "TUSD", "PAX", "USDC"], "REN": ["BTC", "BNB"], "BTT": ["BTC", "BNB", "USDT", "PAX", "TUSD", "USDC"], "USDS": ["USDT", "PAX", "TUSD", "USDC"], "ONG": ["BNB", "BTC", "USDT"], "FET": ["BNB", "BTC", "USDT"], "CELR": ["BNB", "BTC", "USDT"], "MATIC": ["BNB", "BTC", "USDT"], "ATOM": ["BNB", "BTC", "USDT", "USDC", "PAX", "TUSD"], "PHB": ["BNB", "BTC", "USDC", "TUSD", "PAX"], "TFUEL": ["BNB", "BTC", "USDT", "USDC", "TUSD", "PAX"], "ONE": ["BNB", "BTC", "USDT", "TUSD", "PAX", "USDC"], "FTM": ["BNB", "BTC", "USDT", "TUSD", "PAX", "USDC"], "BTCB": ["BTC"], "ALGO": ["BNB", "BTC", "USDT", "TUSD", "PAX", "USDC"], "USDSB": ["USDT", "USDS"]}}
+{
+    "FROM": {
+        "BTC": [
+            "ETH",
+            "LTC",
+            "BNB",
+            "NEO",
+            "BCC",
+            "GAS",
+            "HSR",
+            "MCO",
+            "WTC",
+            "LRC",
+            "QTUM",
+            "YOYO",
+            "OMG",
+            "ZRX",
+            "STRAT",
+            "SNGLS",
+            "BQX",
+            "KNC",
+            "FUN",
+            "SNM",
+            "IOTA",
+            "LINK",
+            "XVG",
+            "SALT",
+            "MDA",
+            "MTL",
+            "SUB",
+            "EOS",
+            "SNT",
+            "ETC",
+            "MTH",
+            "ENG",
+            "DNT",
+            "ZEC",
+            "BNT",
+            "AST",
+            "DASH",
+            "OAX",
+            "ICN",
+            "BTG",
+            "EVX",
+            "REQ",
+            "VIB",
+            "TRX",
+            "POWR",
+            "ARK",
+            "XRP",
+            "MOD",
+            "ENJ",
+            "STORJ",
+            "VEN",
+            "KMD",
+            "RCN",
+            "NULS",
+            "RDN",
+            "XMR",
+            "DLT",
+            "AMB",
+            "BAT",
+            "BCPT",
+            "ARN",
+            "GVT",
+            "CDT",
+            "GXS",
+            "POE",
+            "QSP",
+            "BTS",
+            "XZC",
+            "LSK",
+            "TNT",
+            "FUEL",
+            "MANA",
+            "BCD",
+            "DGD",
+            "ADX",
+            "ADA",
+            "PPT",
+            "CMT",
+            "XLM",
+            "CND",
+            "LEND",
+            "WABI",
+            "TNB",
+            "WAVES",
+            "GTO",
+            "ICX",
+            "OST",
+            "ELF",
+            "AION",
+            "NEBL",
+            "BRD",
+            "EDO",
+            "WINGS",
+            "NAV",
+            "LUN",
+            "TRIG",
+            "APPC",
+            "VIBE",
+            "RLC",
+            "INS",
+            "PIVX",
+            "IOST",
+            "CHAT",
+            "STEEM",
+            "NANO",
+            "VIA",
+            "BLZ",
+            "AE",
+            "RPX",
+            "NCASH",
+            "POA",
+            "ZIL",
+            "ONT",
+            "STORM",
+            "XEM",
+            "WAN",
+            "WPR",
+            "QLC",
+            "SYS",
+            "GRS",
+            "CLOAK",
+            "GNT",
+            "LOOM",
+            "BCN",
+            "REP",
+            "TUSD",
+            "ZEN",
+            "SKY",
+            "CVC",
+            "THETA",
+            "IOTX",
+            "QKC",
+            "AGI",
+            "NXS",
+            "DATA",
+            "SC",
+            "NPXS",
+            "KEY",
+            "NAS",
+            "MFT",
+            "DENT",
+            "ARDR",
+            "HOT",
+            "VET",
+            "DOCK",
+            "POLY",
+            "PHX",
+            "HC",
+            "GO",
+            "PAX",
+            "RVN",
+            "DCR",
+            "USDC",
+            "MITH",
+            "BCHABC",
+            "BCHSV",
+            "REN",
+            "BTT",
+            "ONG",
+            "FET",
+            "CELR",
+            "MATIC",
+            "ATOM",
+            "PHB",
+            "TFUEL",
+            "ONE",
+            "FTM",
+            "BTCB",
+            "ALGO"
+        ],
+        "ETH": [
+            "QTUM",
+            "EOS",
+            "SNT",
+            "BNT",
+            "BNB",
+            "OAX",
+            "DNT",
+            "MCO",
+            "ICN",
+            "WTC",
+            "LRC",
+            "OMG",
+            "ZRX",
+            "STRAT",
+            "SNGLS",
+            "BQX",
+            "KNC",
+            "FUN",
+            "SNM",
+            "NEO",
+            "IOTA",
+            "LINK",
+            "XVG",
+            "SALT",
+            "MDA",
+            "MTL",
+            "SUB",
+            "ETC",
+            "MTH",
+            "ENG",
+            "ZEC",
+            "AST",
+            "DASH",
+            "BTG",
+            "EVX",
+            "REQ",
+            "VIB",
+            "HSR",
+            "TRX",
+            "POWR",
+            "ARK",
+            "YOYO",
+            "XRP",
+            "MOD",
+            "ENJ",
+            "STORJ",
+            "VEN",
+            "KMD",
+            "RCN",
+            "NULS",
+            "RDN",
+            "XMR",
+            "DLT",
+            "AMB",
+            "BCC",
+            "BAT",
+            "BCPT",
+            "ARN",
+            "GVT",
+            "CDT",
+            "GXS",
+            "POE",
+            "QSP",
+            "BTS",
+            "XZC",
+            "LSK",
+            "TNT",
+            "FUEL",
+            "MANA",
+            "BCD",
+            "DGD",
+            "ADX",
+            "ADA",
+            "PPT",
+            "CMT",
+            "XLM",
+            "CND",
+            "LEND",
+            "WABI",
+            "LTC",
+            "TNB",
+            "WAVES",
+            "GTO",
+            "ICX",
+            "OST",
+            "ELF",
+            "AION",
+            "NEBL",
+            "BRD",
+            "EDO",
+            "WINGS",
+            "NAV",
+            "LUN",
+            "TRIG",
+            "APPC",
+            "VIBE",
+            "RLC",
+            "INS",
+            "PIVX",
+            "IOST",
+            "CHAT",
+            "STEEM",
+            "NANO",
+            "VIA",
+            "BLZ",
+            "AE",
+            "RPX",
+            "NCASH",
+            "POA",
+            "ZIL",
+            "ONT",
+            "STORM",
+            "XEM",
+            "WAN",
+            "WPR",
+            "QLC",
+            "SYS",
+            "GRS",
+            "CLOAK",
+            "GNT",
+            "LOOM",
+            "BCN",
+            "REP",
+            "TUSD",
+            "ZEN",
+            "SKY",
+            "CVC",
+            "THETA",
+            "IOTX",
+            "QKC",
+            "AGI",
+            "NXS",
+            "DATA",
+            "SC",
+            "NPXS",
+            "KEY",
+            "NAS",
+            "MFT",
+            "DENT",
+            "ARDR",
+            "HOT",
+            "VET",
+            "DOCK",
+            "PHX",
+            "HC",
+            "PAX"
+        ],
+        "USDT": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "BCC",
+            "NEO",
+            "LTC",
+            "QTUM",
+            "ADA",
+            "XRP",
+            "EOS",
+            "TUSD",
+            "IOTA",
+            "XLM",
+            "ONT",
+            "TRX",
+            "ETC",
+            "ICX",
+            "VEN",
+            "NULS",
+            "VET",
+            "PAX",
+            "BCHABC",
+            "BCHSV",
+            "USDC",
+            "LINK",
+            "WAVES",
+            "BTT",
+            "USDS",
+            "ONG",
+            "HOT",
+            "ZIL",
+            "ZRX",
+            "FET",
+            "BAT",
+            "XMR",
+            "ZEC",
+            "IOST",
+            "CELR",
+            "DASH",
+            "NANO",
+            "OMG",
+            "THETA",
+            "ENJ",
+            "MITH",
+            "MATIC",
+            "ATOM",
+            "TFUEL",
+            "ONE",
+            "FTM",
+            "ALGO",
+            "USDSB",
+            "GTO"
+        ],
+        "BNB": [
+            "VEN",
+            "YOYO",
+            "POWR",
+            "NULS",
+            "RCN",
+            "RDN",
+            "DLT",
+            "WTC",
+            "AMB",
+            "BCC",
+            "BAT",
+            "BCPT",
+            "NEO",
+            "QSP",
+            "BTS",
+            "XZC",
+            "LSK",
+            "IOTA",
+            "ADX",
+            "CMT",
+            "XLM",
+            "CND",
+            "WABI",
+            "LTC",
+            "WAVES",
+            "GTO",
+            "ICX",
+            "OST",
+            "AION",
+            "NEBL",
+            "BRD",
+            "MCO",
+            "NAV",
+            "TRIG",
+            "APPC",
+            "RLC",
+            "PIVX",
+            "STEEM",
+            "NANO",
+            "VIA",
+            "BLZ",
+            "AE",
+            "RPX",
+            "NCASH",
+            "POA",
+            "ZIL",
+            "ONT",
+            "STORM",
+            "QTUM",
+            "XEM",
+            "WAN",
+            "SYS",
+            "QLC",
+            "ADA",
+            "GNT",
+            "LOOM",
+            "BCN",
+            "REP",
+            "TUSD",
+            "ZEN",
+            "SKY",
+            "EOS",
+            "CVC",
+            "THETA",
+            "XRP",
+            "AGI",
+            "NXS",
+            "ENJ",
+            "TRX",
+            "ETC",
+            "SC",
+            "NAS",
+            "MFT",
+            "ARDR",
+            "VET",
+            "POLY",
+            "PHX",
+            "GO",
+            "PAX",
+            "RVN",
+            "DCR",
+            "USDC",
+            "MITH",
+            "REN",
+            "BTT",
+            "ONG",
+            "HOT",
+            "ZRX",
+            "FET",
+            "XMR",
+            "ZEC",
+            "IOST",
+            "CELR",
+            "DASH",
+            "OMG",
+            "MATIC",
+            "ATOM",
+            "PHB",
+            "TFUEL",
+            "ONE",
+            "FTM",
+            "ALGO"
+        ],
+        "TUSD": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "XRP",
+            "EOS",
+            "XLM",
+            "ADA",
+            "TRX",
+            "NEO",
+            "PAX",
+            "USDC",
+            "LINK",
+            "WAVES",
+            "BCHABC",
+            "BCHSV",
+            "LTC",
+            "USDS",
+            "BTT",
+            "ZEC",
+            "ATOM",
+            "ETC",
+            "BAT",
+            "PHB",
+            "TFUEL",
+            "ONE",
+            "FTM",
+            "BCPT",
+            "ALGO",
+            "GTO"
+        ],
+        "PAX": [
+            "BNB",
+            "BTC",
+            "ETH",
+            "XRP",
+            "EOS",
+            "XLM",
+            "USDC",
+            "LINK",
+            "WAVES",
+            "BCHABC",
+            "BCHSV",
+            "LTC",
+            "TRX",
+            "USDS",
+            "BTT",
+            "ZEC",
+            "ADA",
+            "NEO",
+            "ATOM",
+            "ETC",
+            "BAT",
+            "PHB",
+            "TFUEL",
+            "ONE",
+            "FTM",
+            "BCPT",
+            "ALGO",
+            "GTO"
+        ],
+        "USDC": [
+            "BNB",
+            "BTC",
+            "ETH",
+            "XRP",
+            "EOS",
+            "XLM",
+            "LINK",
+            "WAVES",
+            "BCHABC",
+            "BCHSV",
+            "LTC",
+            "TRX",
+            "USDS",
+            "BTT",
+            "ZEC",
+            "ADA",
+            "NEO",
+            "ATOM",
+            "ETC",
+            "BAT",
+            "PHB",
+            "TFUEL",
+            "ONE",
+            "FTM",
+            "BCPT",
+            "ALGO",
+            "GTO"
+        ],
+        "XRP": [
+            "TRX",
+            "XZC"
+        ],
+        "USDS": [
+            "BNB",
+            "BTC",
+            "USDSB"
+        ]
+    },
+    "TO": {
+        "ETH": [
+            "BTC",
+            "USDT",
+            "TUSD",
+            "PAX",
+            "USDC"
+        ],
+        "LTC": [
+            "BTC",
+            "ETH",
+            "USDT",
+            "BNB",
+            "TUSD",
+            "PAX",
+            "USDC"
+        ],
+        "BNB": [
+            "BTC",
+            "ETH",
+            "USDT",
+            "PAX",
+            "TUSD",
+            "USDC",
+            "USDS"
+        ],
+        "NEO": [
+            "BTC",
+            "ETH",
+            "USDT",
+            "BNB",
+            "TUSD",
+            "PAX",
+            "USDC"
+        ],
+        "QTUM": [
+            "ETH",
+            "BTC",
+            "BNB",
+            "USDT"
+        ],
+        "EOS": [
+            "ETH",
+            "BTC",
+            "USDT",
+            "BNB",
+            "PAX",
+            "TUSD",
+            "USDC"
+        ],
+        "SNT": [
+            "ETH",
+            "BTC"
+        ],
+        "BNT": [
+            "ETH",
+            "BTC"
+        ],
+        "BCC": [
+            "BTC",
+            "ETH",
+            "USDT",
+            "BNB"
+        ],
+        "GAS": [
+            "BTC"
+        ],
+        "BTC": [
+            "USDT",
+            "TUSD",
+            "PAX",
+            "USDC",
+            "USDS"
+        ],
+        "HSR": [
+            "BTC",
+            "ETH"
+        ],
+        "OAX": [
+            "ETH",
+            "BTC"
+        ],
+        "DNT": [
+            "ETH",
+            "BTC"
+        ],
+        "MCO": [
+            "ETH",
+            "BTC",
+            "BNB"
+        ],
+        "ICN": [
+            "ETH",
+            "BTC"
+        ],
+        "WTC": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "LRC": [
+            "BTC",
+            "ETH"
+        ],
+        "YOYO": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "OMG": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "ZRX": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "STRAT": [
+            "BTC",
+            "ETH"
+        ],
+        "SNGLS": [
+            "BTC",
+            "ETH"
+        ],
+        "BQX": [
+            "BTC",
+            "ETH"
+        ],
+        "KNC": [
+            "BTC",
+            "ETH"
+        ],
+        "FUN": [
+            "BTC",
+            "ETH"
+        ],
+        "SNM": [
+            "BTC",
+            "ETH"
+        ],
+        "IOTA": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "LINK": [
+            "BTC",
+            "ETH",
+            "USDT",
+            "TUSD",
+            "PAX",
+            "USDC"
+        ],
+        "XVG": [
+            "BTC",
+            "ETH"
+        ],
+        "SALT": [
+            "BTC",
+            "ETH"
+        ],
+        "MDA": [
+            "BTC",
+            "ETH"
+        ],
+        "MTL": [
+            "BTC",
+            "ETH"
+        ],
+        "SUB": [
+            "BTC",
+            "ETH"
+        ],
+        "ETC": [
+            "ETH",
+            "BTC",
+            "USDT",
+            "BNB",
+            "USDC",
+            "PAX",
+            "TUSD"
+        ],
+        "MTH": [
+            "BTC",
+            "ETH"
+        ],
+        "ENG": [
+            "BTC",
+            "ETH"
+        ],
+        "ZEC": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT",
+            "PAX",
+            "TUSD",
+            "USDC"
+        ],
+        "AST": [
+            "BTC",
+            "ETH"
+        ],
+        "DASH": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "BTG": [
+            "BTC",
+            "ETH"
+        ],
+        "EVX": [
+            "BTC",
+            "ETH"
+        ],
+        "REQ": [
+            "BTC",
+            "ETH"
+        ],
+        "VIB": [
+            "BTC",
+            "ETH"
+        ],
+        "TRX": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT",
+            "TUSD",
+            "XRP",
+            "PAX",
+            "USDC"
+        ],
+        "POWR": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "ARK": [
+            "BTC",
+            "ETH"
+        ],
+        "XRP": [
+            "BTC",
+            "ETH",
+            "USDT",
+            "BNB",
+            "PAX",
+            "TUSD",
+            "USDC"
+        ],
+        "MOD": [
+            "BTC",
+            "ETH"
+        ],
+        "ENJ": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "STORJ": [
+            "BTC",
+            "ETH"
+        ],
+        "VEN": [
+            "BNB",
+            "BTC",
+            "ETH",
+            "USDT"
+        ],
+        "KMD": [
+            "BTC",
+            "ETH"
+        ],
+        "NULS": [
+            "BNB",
+            "BTC",
+            "ETH",
+            "USDT"
+        ],
+        "RCN": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "RDN": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "XMR": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "DLT": [
+            "BNB",
+            "BTC",
+            "ETH"
+        ],
+        "AMB": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "BAT": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT",
+            "USDC",
+            "PAX",
+            "TUSD"
+        ],
+        "BCPT": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "TUSD",
+            "PAX",
+            "USDC"
+        ],
+        "ARN": [
+            "BTC",
+            "ETH"
+        ],
+        "GVT": [
+            "BTC",
+            "ETH"
+        ],
+        "CDT": [
+            "BTC",
+            "ETH"
+        ],
+        "GXS": [
+            "BTC",
+            "ETH"
+        ],
+        "POE": [
+            "BTC",
+            "ETH"
+        ],
+        "QSP": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "BTS": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "XZC": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "XRP"
+        ],
+        "LSK": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "TNT": [
+            "BTC",
+            "ETH"
+        ],
+        "FUEL": [
+            "BTC",
+            "ETH"
+        ],
+        "MANA": [
+            "BTC",
+            "ETH"
+        ],
+        "BCD": [
+            "BTC",
+            "ETH"
+        ],
+        "DGD": [
+            "BTC",
+            "ETH"
+        ],
+        "ADX": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "ADA": [
+            "BTC",
+            "ETH",
+            "USDT",
+            "BNB",
+            "TUSD",
+            "PAX",
+            "USDC"
+        ],
+        "PPT": [
+            "BTC",
+            "ETH"
+        ],
+        "CMT": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "XLM": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT",
+            "PAX",
+            "TUSD",
+            "USDC"
+        ],
+        "CND": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "LEND": [
+            "BTC",
+            "ETH"
+        ],
+        "WABI": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "TNB": [
+            "BTC",
+            "ETH"
+        ],
+        "WAVES": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT",
+            "TUSD",
+            "PAX",
+            "USDC"
+        ],
+        "GTO": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT",
+            "PAX",
+            "TUSD",
+            "USDC"
+        ],
+        "ICX": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "OST": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "ELF": [
+            "BTC",
+            "ETH"
+        ],
+        "AION": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "NEBL": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "BRD": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "EDO": [
+            "BTC",
+            "ETH"
+        ],
+        "WINGS": [
+            "BTC",
+            "ETH"
+        ],
+        "NAV": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "LUN": [
+            "BTC",
+            "ETH"
+        ],
+        "TRIG": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "APPC": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "VIBE": [
+            "BTC",
+            "ETH"
+        ],
+        "RLC": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "INS": [
+            "BTC",
+            "ETH"
+        ],
+        "PIVX": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "IOST": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "CHAT": [
+            "BTC",
+            "ETH"
+        ],
+        "STEEM": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "NANO": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "VIA": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "BLZ": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "AE": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "RPX": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "NCASH": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "POA": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "ZIL": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "ONT": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "STORM": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "XEM": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "WAN": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "WPR": [
+            "BTC",
+            "ETH"
+        ],
+        "QLC": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "SYS": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "GRS": [
+            "BTC",
+            "ETH"
+        ],
+        "CLOAK": [
+            "BTC",
+            "ETH"
+        ],
+        "GNT": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "LOOM": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "BCN": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "REP": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "TUSD": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "ZEN": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "SKY": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "CVC": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "THETA": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "IOTX": [
+            "BTC",
+            "ETH"
+        ],
+        "QKC": [
+            "BTC",
+            "ETH"
+        ],
+        "AGI": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "NXS": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "DATA": [
+            "BTC",
+            "ETH"
+        ],
+        "SC": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "NPXS": [
+            "BTC",
+            "ETH"
+        ],
+        "KEY": [
+            "BTC",
+            "ETH"
+        ],
+        "NAS": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "MFT": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "DENT": [
+            "BTC",
+            "ETH"
+        ],
+        "ARDR": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "HOT": [
+            "BTC",
+            "ETH",
+            "BNB",
+            "USDT"
+        ],
+        "VET": [
+            "BTC",
+            "ETH",
+            "USDT",
+            "BNB"
+        ],
+        "DOCK": [
+            "BTC",
+            "ETH"
+        ],
+        "POLY": [
+            "BTC",
+            "BNB"
+        ],
+        "PHX": [
+            "BTC",
+            "ETH",
+            "BNB"
+        ],
+        "HC": [
+            "BTC",
+            "ETH"
+        ],
+        "GO": [
+            "BTC",
+            "BNB"
+        ],
+        "PAX": [
+            "BTC",
+            "BNB",
+            "USDT",
+            "ETH",
+            "TUSD"
+        ],
+        "RVN": [
+            "BTC",
+            "BNB"
+        ],
+        "DCR": [
+            "BTC",
+            "BNB"
+        ],
+        "USDC": [
+            "BNB",
+            "BTC",
+            "USDT",
+            "TUSD",
+            "PAX"
+        ],
+        "MITH": [
+            "BTC",
+            "BNB",
+            "USDT"
+        ],
+        "BCHABC": [
+            "BTC",
+            "USDT",
+            "TUSD",
+            "PAX",
+            "USDC"
+        ],
+        "BCHSV": [
+            "BTC",
+            "USDT",
+            "TUSD",
+            "PAX",
+            "USDC"
+        ],
+        "REN": [
+            "BTC",
+            "BNB"
+        ],
+        "BTT": [
+            "BTC",
+            "BNB",
+            "USDT",
+            "PAX",
+            "TUSD",
+            "USDC"
+        ],
+        "USDS": [
+            "USDT",
+            "PAX",
+            "TUSD",
+            "USDC"
+        ],
+        "ONG": [
+            "BNB",
+            "BTC",
+            "USDT"
+        ],
+        "FET": [
+            "BNB",
+            "BTC",
+            "USDT"
+        ],
+        "CELR": [
+            "BNB",
+            "BTC",
+            "USDT"
+        ],
+        "MATIC": [
+            "BNB",
+            "BTC",
+            "USDT"
+        ],
+        "ATOM": [
+            "BNB",
+            "BTC",
+            "USDT",
+            "USDC",
+            "PAX",
+            "TUSD"
+        ],
+        "PHB": [
+            "BNB",
+            "BTC",
+            "USDC",
+            "TUSD",
+            "PAX"
+        ],
+        "TFUEL": [
+            "BNB",
+            "BTC",
+            "USDT",
+            "USDC",
+            "TUSD",
+            "PAX"
+        ],
+        "ONE": [
+            "BNB",
+            "BTC",
+            "USDT",
+            "TUSD",
+            "PAX",
+            "USDC"
+        ],
+        "FTM": [
+            "BNB",
+            "BTC",
+            "USDT",
+            "TUSD",
+            "PAX",
+            "USDC"
+        ],
+        "BTCB": [
+            "BTC"
+        ],
+        "ALGO": [
+            "BNB",
+            "BTC",
+            "USDT",
+            "TUSD",
+            "PAX",
+            "USDC"
+        ],
+        "USDSB": [
+            "USDT",
+            "USDS"
+        ]
+    },
+    "COINS": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "BNB",
+        "NEO",
+        "BCC",
+        "GAS",
+        "HSR",
+        "MCO",
+        "WTC",
+        "LRC",
+        "QTUM",
+        "YOYO",
+        "OMG",
+        "ZRX",
+        "STRAT",
+        "SNGLS",
+        "BQX",
+        "KNC",
+        "FUN",
+        "SNM",
+        "IOTA",
+        "LINK",
+        "XVG",
+        "SALT",
+        "MDA",
+        "MTL",
+        "SUB",
+        "EOS",
+        "SNT",
+        "ETC",
+        "MTH",
+        "ENG",
+        "DNT",
+        "ZEC",
+        "BNT",
+        "AST",
+        "DASH",
+        "OAX",
+        "ICN",
+        "BTG",
+        "EVX",
+        "REQ",
+        "VIB",
+        "TRX",
+        "POWR",
+        "ARK",
+        "XRP",
+        "MOD",
+        "ENJ",
+        "STORJ",
+        "VEN",
+        "KMD",
+        "RCN",
+        "NULS",
+        "RDN",
+        "XMR",
+        "DLT",
+        "AMB",
+        "BAT",
+        "BCPT",
+        "ARN",
+        "GVT",
+        "CDT",
+        "GXS",
+        "POE",
+        "QSP",
+        "BTS",
+        "XZC",
+        "LSK",
+        "TNT",
+        "FUEL",
+        "MANA",
+        "BCD",
+        "DGD",
+        "ADX",
+        "ADA",
+        "PPT",
+        "CMT",
+        "XLM",
+        "CND",
+        "LEND",
+        "WABI",
+        "TNB",
+        "WAVES",
+        "GTO",
+        "ICX",
+        "OST",
+        "ELF",
+        "AION",
+        "NEBL",
+        "BRD",
+        "EDO",
+        "WINGS",
+        "NAV",
+        "LUN",
+        "TRIG",
+        "APPC",
+        "VIBE",
+        "RLC",
+        "INS",
+        "PIVX",
+        "IOST",
+        "CHAT",
+        "STEEM",
+        "NANO",
+        "VIA",
+        "BLZ",
+        "AE",
+        "RPX",
+        "NCASH",
+        "POA",
+        "ZIL",
+        "ONT",
+        "STORM",
+        "XEM",
+        "WAN",
+        "WPR",
+        "QLC",
+        "SYS",
+        "GRS",
+        "CLOAK",
+        "GNT",
+        "LOOM",
+        "BCN",
+        "REP",
+        "TUSD",
+        "ZEN",
+        "SKY",
+        "CVC",
+        "THETA",
+        "IOTX",
+        "QKC",
+        "AGI",
+        "NXS",
+        "DATA",
+        "SC",
+        "NPXS",
+        "KEY",
+        "NAS",
+        "MFT",
+        "DENT",
+        "ARDR",
+        "HOT",
+        "VET",
+        "DOCK",
+        "POLY",
+        "PHX",
+        "HC",
+        "GO",
+        "PAX",
+        "RVN",
+        "DCR",
+        "USDC",
+        "MITH",
+        "BCHABC",
+        "BCHSV",
+        "REN",
+        "BTT",
+        "ONG",
+        "FET",
+        "CELR",
+        "MATIC",
+        "ATOM",
+        "PHB",
+        "TFUEL",
+        "ONE",
+        "FTM",
+        "BTCB",
+        "ALGO"
+    ]
+}
