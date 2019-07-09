@@ -1,0 +1,6 @@
+2019-07-08 13:54:30,441:order_log:INFO LOG: <__main__.Order object at 0x000002772B83F208>
+2019-07-08 13:56:41,069:order_log:INFO LOG: <__main__.Order object at 0x0000023F32DAF1D0>
+2019-07-08 13:57:04,854:order_log:INFO LOG: <__main__.Order object at 0x00000226FFF501D0>
+2019-07-08 13:58:37,670:order_log:INFO LOG: At 2019-07-08 13:58:37, created amount of: 0.1 BNBBTC order at price of 0.0028467.
+2019-07-08 14:02:17,096:order_log:INFO LOG: User:sjhhh3 at 2019-07-08 14:02:16, created amount of: 0.1 BNBBTC order at price of 0.002851.
+2019-07-08 14:52:58,403:order_log:INFO LOG: User:new_sjhhh33 at 2019-07-08 14:52:58, created amount of: 300000 CELRUSDT order at price of 0.0154.

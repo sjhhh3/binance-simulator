@@ -103,7 +103,6 @@ class PublicAPI:
         return requests.get(path, timeout=30, verify=True).json()
 
 
-
 class PrivateAPI:
     def __init__(self):
         self.key = key_config.api_key
@@ -137,8 +136,6 @@ class PrivateAPI:
         return self._get_no_sign(path)
 
 
-
-a = PublicAPI.get_best_price("CELRUSDT")
-print(a)
-for i in a:
-    print(f"{i}: {a[i]}")
+if __name__ == "__main__":
+    a = PublicAPI.get_cur_price("CELRUSDT")
+    print(a["price"])

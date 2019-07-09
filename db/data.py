@@ -2,10 +2,13 @@ import sqlite3
 import time
 import datetime
 import json
+import os
 
-conn = sqlite3.connect('./db/database.db')
+data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../db/database.db")
+exchange_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../db/exchange")
+conn = sqlite3.connect(data_path)
 c = conn.cursor()
-COINS = json.loads(open('app/exchange').read())["COINS"]
+COINS = json.loads(open(exchange_path).read())["COINS"]
 
 
 class Database:
@@ -66,9 +69,9 @@ class Database:
                     VALUES (NULL, ?, ?, ?, ?)
                       ''', (ts, td, self.username, init_amount))
             c.execute(f'''
-                    INSERT INTO balances (cid, uid)
-                    VALUES (NULL, ?)
-                      ''', (self._search_user(),))
+                    INSERT INTO balances (cid, uid, USDT)
+                    VALUES (NULL, ?, ?)
+                      ''', (self._search_user(), init_amount))
             conn.commit()
         return self._search_user()
 
@@ -81,7 +84,7 @@ class Database:
         return account_info
 
     def get_coin_amount(self, coin=None):
-        assert not coin or coin in COINS, "COIN NAME ERROR"
+        assert coin in COINS or not coin, "COIN NAME ERROR"
         conn.row_factory = sqlite3.Row
         c = conn.cursor()
         user_id = self._search_user()
@@ -90,7 +93,7 @@ class Database:
         c.execute('''SELECT * FROM balances WHERE uid = ?''', (user_id,))
         balances_info = c.fetchone()
         if not coin:
-            return {balances_info.keys()[i]: balances_info[i] for i in range(len(balances_info))}
+            return {balances_info.keys()[i]: balances_info[i] for i in range(len(balances_info)) if balances_info[i] != 0}
         else:
             return balances_info[coin]
 
@@ -98,6 +101,8 @@ class Database:
         assert 0 < amount < 1000000, "Amount error"
         assert not coin or coin in COINS, "COIN NAME ERROR"
         user_id = self._search_user()
+        if not user_id:
+            user_id = self.create_user(init_amount=10000.00)
         c.execute(f'''
                   UPDATE balances
                   SET {coin} = {amount}
@@ -106,16 +111,23 @@ class Database:
         conn.commit()
         return self.get_coin_amount(coin)
 
+    def create_order(self, tfsb, ttsb, tfcoin, ttcoin, symbol, amount, price, operate):
+        ts = time.time()
+        td = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
+        user_id = self._search_user()
+        if not user_id:
+            user_id = self.create_user(init_amount=10000.00)
+        self.set_coin_amount(tfcoin, tfsb)
+        self.set_coin_amount(ttcoin, ttsb)
+        print(f"{ttcoin}:{self.get_coin_amount(ttcoin)}, "
+              f"{tfcoin}: {self.get_coin_amount(tfcoin)}")
+        c.execute(f'''
+                  INSERT INTO orders 
+                  VALUES (NULL, ?, ?, ?, ?, ?, ?, ?);
+                  ''', (user_id, symbol, amount, price, operate, td, ts))
+        conn.commit()
+        return f"at {td}, created amount of: {amount} {symbol} order at price of {price}."
+
 
 if __name__ == "__main__":
-    # a = Database('sjhhh3')
-    # a.create_user(10000.00)
-    # print(a.get_user_info())
-    # print(a.get_user_balances())
-
-    b = Database('sjhhh333')
-    b.create_user(20000.00)
-    print(b.get_user_info())
-    print(b.set_coin_amount('BTC', 30.00))
-    print(b.get_coin_amount('BTC'))
-    Database('sjhhh3').set_coin_amount('BTC', 22.00)
+    pass

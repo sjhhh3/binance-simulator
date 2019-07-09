@@ -1482,6 +1482,7 @@
         ]
     },
     "COINS": [
+        "USDT",
         "BTC",
         "ETH",
         "LTC",
