@@ -98,8 +98,10 @@ class Database:
             return balances_info[coin]
 
     def set_coin_amount(self, coin, amount):
-        assert 0 < amount < 1000000, "Amount error"
-        assert not coin or coin in COINS, "COIN NAME ERROR"
+        if not 0 < amount < 10000000:
+            raise ValueError("Amount error")
+        if coin and coin not in COINS:
+            raise ValueError("COIN NAME ERROR")
         user_id = self._search_user()
         if not user_id:
             user_id = self.create_user(init_amount=10000.00)
