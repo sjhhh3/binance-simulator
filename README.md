@@ -1,5 +1,5 @@
 # binance-simulator ![version](https://img.shields.io/badge/Version-1.0-blue.svg)
-For those who always wait-and-see the cryptocurrency market, want to join in but worry about the loss and secure. A simple script has been developed by me. Based on Binance API and grab the current price of each cryptocurrency existing on Binance Market, simulate a local trading platform. No more loss and secure worry since it create your own sqlite3 database locally.
+For those who always wait-and-see the cryptocurrency market, want to join in but worry about the loss and secure, a simple script has been developed by me. Based on Binance API and grab the current price of each cryptocurrency existing on Binance Market, simulate a local trading platform. No more loss and secure worry since it creates your own sqlite3 database locally.
 ## Preview
 ![binance](https://user-images.githubusercontent.com/13906239/61072348-15c96500-a3e1-11e9-8851-61cc4a5b800d.JPG)
 
