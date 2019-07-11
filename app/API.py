@@ -3,10 +3,10 @@ import requests
 import json
 import hashlib
 import hmac
-
-import key_config
-
 from urllib.parse import urlencode
+
+import app.key_config
+
 
 BASE_URL = "https://api.binance.com/"
 

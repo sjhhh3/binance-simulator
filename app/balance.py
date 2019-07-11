@@ -1,13 +1,16 @@
-import API
-import db.data
+import sys
 import threading
-from _log import Log
+sys.path.append('..')
+
+from db.data import Database
+from .API import PublicAPI
+from ._log import Log
 
 
 class Balance:
     def __init__(self, username):
         self.username = username
-        self.data = db.data.Database(username)
+        self.data = Database(username)
         self.coins = self.data.get_coin_amount()
         self.threadlist = []
         self.total = 0
@@ -17,11 +20,11 @@ class Balance:
             self.total += self.coins['USDT']
             return None
         symbol = coin + 'USDT'
-        cur_symbol_info = API.PublicAPI.get_cur_price(symbol)
+        cur_symbol_info = PublicAPI.get_cur_price(symbol)
         coin_total = float(cur_symbol_info['price']) * self.coins[coin]
         self.total += coin_total
-        print(coin, "price:", float(cur_symbol_info['price']),
-              "amount:", self.coins[coin], "total to USDT: ", coin_total)
+        sys.stdout.write(f"{coin} price: {float(cur_symbol_info['price'])} "
+                         f"amount: {self.coins[coin]} total to USDT: {coin_total} \n")
 
     # O(1) Time complexity, using multi-threads processing, average run time 0.5s
     @Log.run_time_checker
@@ -46,7 +49,7 @@ class Balance:
             if coin in ('cid', 'uid', 'USDT'):
                 continue
             symbol = coin + 'USDT'
-            cur_symbol_info = API.PublicAPI.get_cur_price(symbol)
+            cur_symbol_info = PublicAPI.get_cur_price(symbol)
             coin_total = float(cur_symbol_info['price']) * self.coins[coin]
             total += coin_total
             print(coin, "price:", float(cur_symbol_info['price']),

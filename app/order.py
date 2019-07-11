@@ -1,6 +1,9 @@
-from API import PublicAPI
+import sys
+sys.path.append('..')
+
 from db.data import Database
-from _log import Log
+from app.API import PublicAPI
+from app._log import Log
 
 
 class Order:

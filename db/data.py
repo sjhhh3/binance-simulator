@@ -1,8 +1,9 @@
-import sqlite3
+import os
 import time
 import datetime
 import json
-import os
+import sqlite3
+
 
 data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../db/database.db")
 exchange_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../db/exchange")
