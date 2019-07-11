@@ -1,10 +1,11 @@
 import sys
 import threading
+import datetime
 sys.path.append('..')
 
 from db.data import Database
-from .API import PublicAPI
-from ._log import Log
+from app.API import PublicAPI
+from app._log import Log
 
 
 class Balance:
@@ -39,7 +40,8 @@ class Balance:
         for th in self.threadlist:
             th.join()
         Log('balance_log').logger.info(f'INFO LOG: User {self.username}, Total Balance Checked ${self.total}')
-        return self.total
+        td = datetime.datetime.now()
+        return f"Total Balance ${self.total} at {td}"
 
     # O(n) Time complexity, average run time (0.5*n)s, n is number of types of coins
     @Log.run_time_checker
@@ -55,9 +57,10 @@ class Balance:
             print(coin, "price:", float(cur_symbol_info['price']),
                   "amount:", self.coins[coin], "total to USDT: ", coin_total)
         total += self.coins.get('USDT', 0)
-        return total
+        return f"Total Balance ${total}"
 
 
 if __name__ == "__main__":
-    info = f"Total Balance ${Balance('sjhhh3').total_balance()}"
-    print(info)
+    # info = f"${Balance('user1').total_balance()}"
+    # print(info)
+    pass

@@ -59,9 +59,11 @@ class Database:
         return user_id[0] if user_id else None
 
     def create_user(self, init_amount):
+        init_amount = float(init_amount)
         assert 0 < init_amount < 1000000, "Initial amount error"
         if self._search_user():
             print("User Exists")
+            return "Please Try Again"
         else:
             ts = time.time()
             td = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
@@ -74,6 +76,7 @@ class Database:
                     VALUES (NULL, ?, ?)
                       ''', (self._search_user(), init_amount))
             conn.commit()
+            print(f"User Created, Username is {self.username}, Initial Amount is ${init_amount}, User Id is:", end=" ")
         return self._search_user()
 
     def get_user_info(self):

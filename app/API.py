@@ -137,5 +137,6 @@ class PrivateAPI:
 
 
 if __name__ == "__main__":
-    a = PublicAPI.get_cur_price("CELRUSDT")
-    print(a["price"])
+    # a = PublicAPI.get_cur_price("CELRUSDT")
+    # print(a["price"])
+    pass
